@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConnectX</title>
+</head>
+<style>
+    body {
+        background-color: #fbde68;
+        text-align: center;
+    }
+    table,th,td{
+        border:1px solid black;
+    border-collapse:collapse;    }
+
+    .button {
+        background-color: #52c4f8;
+        border: none;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        font-size: 16px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0%;
+        margin-bottom: 0%;
+
+        cursor: pointer;
+    }
+
+    .button:hover {
+        background-color: rgb(30, 175, 175);
+    }
+
+    .attendence {
+        display: none;
+    }
+</style>
+
+<!-- Start of Async Drift Code -->
+<script>
+    "use strict";
+    
+    !function() {
+      var t = window.driftt = window.drift = window.driftt || [];
+      if (!t.init) {
+        if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+        t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+        t.factory = function(e) {
+          return function() {
+            var n = Array.prototype.slice.call(arguments);
+            return n.unshift(e), t.push(n), t;
+          };
+        }, t.methods.forEach(function(e) {
+          t[e] = t.factory(e);
+        }), t.load = function(t) {
+          var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+          o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+          var i = document.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(o, i);
+        };
+      }
+    }();
+    drift.SNIPPET_VERSION = '0.3.1';
+    drift.load('hgnxnnza7ria');
+    </script>
+    <!-- End of Async Drift Code -->
+    
+<script>
+var isVisible = false;
+    function showdialog() {
+        const table = document.getElementById("table");
+        isVisible = !isVisible;
+        table.style.display = isVisible ? "table" : "none";
+    }
+</script>
+
+<body>
+    <h1>ConnectX</h1>
+    <button class="button" onclick=showdialog()>Display Attendance Sheet</button><br>
+    <table  style="width:100%" id="table" class="attendence">
+        <tr>
+            <th>Name</th>
+            <th>Usn</th>
+            <th>Present</th>
+        </tr>
+        <tr>
+            <td>Abhay Ranjan</td>
+            <td>1SG19CS001</td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td>Aditya Gupta</td>
+            <td>1SG19CS002</td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td>Akshita Matta</td>
+            <td>1SG19CS003</td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td>Aman Agarwal</td>
+            <td>1SG19CS004</td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td>Anisha Rao</td>
+            <td>1SG19CS005</td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td>Aparna Pandey</td>
+            <td>1SG19CS006</td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td>Bhoomi Agarwal</td>
+            <td>1SG19CS007</td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td>Brunda G.</td>
+            <td>1SG19CS008</td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td>Chithra P.</td>
+            <td>1SG19CS009</td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td>Deeksith Gd.</td>
+            <td>1SG19CS010</td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td>Dhanya Shetty</td>
+            <td>1SG19CS011</td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td>Dia Mirza</td>
+            <td>1SG19CS012</td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td>Diksha Bhardwaj</td>
+            <td>1SG19CS0013</td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td>Eshan Roy</td>
+            <td>1SG19CS014</td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td>Ezaz Khan</td>
+            <td>1SG19CS015</td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td>Garima Mittal</td>
+            <td>1SG19CS016</td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td>Gurnoor Singh</td>
+            <td>1SG19CS017</td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td>Harsh Singh</td>
+            <td>1SG19CS018</td>
+            <td><input type="checkbox"></td>
+        </tr>
+        <tr>
+            <td>Harshita Mittal</td>
+            <td>1SG19CS019</td>
+            <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>Isha Sharma</td>
+                <td>1SG19CS020</td>
+                <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Jagriti Mehta</td>
+                    <td>1SG19CS021</td>
+                    <td><input type="checkbox"></td>
+                    </tr>
+                    <tr>
+                        <td>Jahaan Modi</td>
+                        <td>1SG19CS022</td>
+                        <td><input type="checkbox"></td>
+                        </tr>
+                        <tr>
+                            <td>Jahnvi Kotecha</td>
+                            <td>1SG19CS023</td>
+                            <td><input type="checkbox"></td>
+                            </tr>
+                            <tr>
+                                <td>Karan Raj</td>
+                                <td>1SG19CS024</td>
+                                <td><input type="checkbox"></td>
+                                </tr>
+                                <tr>
+                                    <td>Kavya Shetty</td>
+                                    <td>1SG19CS025</td>
+                                    <td><input type="checkbox"></td>
+                                    </tr>
+                            
+                        
+
+                    
+                
+            
+                  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </table>
+
+</body>
+
+</html>
